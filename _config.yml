@@ -47,6 +47,7 @@ kramdown:
   math_engine_opts:
     preview: false
   parse_block_html: true    
+  math_delimiters: 'latex'
 
 social:
   github: "https://github.com/neurovium"
