@@ -6,7 +6,7 @@ url: "https://neurovium.github.io"
 baseurl: ""
 
 markdown: kramdown
-theme: none
+theme: null
 highlighter: rouge
 permalink: /blog/:year/:month/:day/:title/
 
