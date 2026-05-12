@@ -16,19 +16,19 @@ mirrors:
   - name: ""
     url: ""
 bibtex: |
-@article{
-doi:10.1126/science.1169626,
-author = {Sydney S. Cash  and Eric Halgren  and Nima Dehghani  and Andrea O. Rossetti  and Thomas Thesen  and ChunMao Wang  and Orrin Devinsky  and Ruben Kuzniecky  and Werner Doyle  and Joseph R. Madsen  and Edward Bromfield  and Loránd Erőss  and Péter Halász  and George Karmos  and Richárd Csercsa  and Lucia Wittner  and István Ulbert },
-title = {The Human K-Complex Represents an Isolated Cortical Down-State},
-journal = {Science},
-volume = {324},
-number = {5930},
-pages = {1084-1087},
-year = {2009},
-doi = {10.1126/science.1169626},
-URL = {https://www.science.org/doi/abs/10.1126/science.1169626},
-eprint = {https://www.science.org/doi/pdf/10.1126/science.1169626},
-}
+  @article{
+  doi:10.1126/science.1169626,
+  author = {Sydney S. Cash  and Eric Halgren  and Nima Dehghani  and Andrea O. Rossetti  and Thomas Thesen  and ChunMao Wang  and Orrin Devinsky  and Ruben Kuzniecky  and Werner Doyle  and Joseph R. Madsen  and Edward Bromfield  and Loránd Erőss  and Péter Halász  and George Karmos  and Richárd Csercsa  and Lucia Wittner  and István Ulbert },
+  title = {The Human K-Complex Represents an Isolated Cortical Down-State},
+  journal = {Science},
+  volume = {324},
+  number = {5930},
+  pages = {1084-1087},
+  year = {2009},
+  doi = {10.1126/science.1169626},
+  URL = {https://www.science.org/doi/abs/10.1126/science.1169626},
+  eprint = {https://www.science.org/doi/pdf/10.1126/science.1169626},
+  }
 description: "A mathematical framework showing that deep neural networks implement successive coarse-graining, where each layer preserves task-relevant information while discarding irrelevant nuisance information — analogous to renormalization group flow in physics."
 math: false
 ---
