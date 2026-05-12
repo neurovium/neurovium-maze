@@ -15,3 +15,6 @@ Block:
 \]
 
 
+$$
+\mathbf{j} = \sigma \mathbf{E}
+$$
