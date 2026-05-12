@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "Magnetoencephalography Demonstrates Multiple Asynchronous Generators During Human Sleep Spindles"
-subtitle: "An Information-Theoretic Treatment"
+subtitle: ""
 authors: "Dehghani, Nima and Cash, Sydney S. and Rossetti, Andrea O. and Chen, Chih Chuan and Halgren, Eric"
 date: 2026-05-11
 venue: "Paper"
