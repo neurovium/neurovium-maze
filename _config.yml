@@ -42,10 +42,11 @@ plugins:
   - jekyll-sitemap
 
 kramdown:
-  input: GFM
   math_engine: mathjax
+  input: GFM
   math_engine_opts:
     preview: false
+  parse_block_html: true    
 
 social:
   github: "https://github.com/neurovium"
