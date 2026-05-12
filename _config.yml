@@ -48,11 +48,11 @@ kramdown:
     
 social:
   github: "https://github.com/neurovium"
-  scholar: "https://scholar.google.com/citations?user=XXXXXX"
-  linkedin: "https://linkedin.com/in/XXXXXX"
-  twitter: "https://twitter.com/XXXXXX"
-  bluesky: "https://bsky.app/profile/XXXXXX"
-  email: "nima_d@mit.edu"
+  scholar: "https://scholar.google.com/citations?user=acFMrVUAAAAJ&hl=en"
+  linkedin: "https://www.linkedin.com/in/nimadehghani/"
+  twitter: "https://twitter.com/neurovium"
+  bluesky: "https://bsky.app/profile/neurovium.bsky.social"
+  email: "nima.dehghani@mit.edu"
 
 n3hub: "https://sites.mit.edu/n3hub/"
 compneuro: "https://compneuro.mit.edu/"
