@@ -46,6 +46,8 @@ kramdown:
   math_engine_opts:
     preview: false
 
+theme: null
+
 social:
   github: "https://github.com/neurovium"
   scholar: "https://scholar.google.com/citations?user=XXXXXX"
