@@ -6,7 +6,7 @@ authors: "Dehghani, Nima and Cash, Sydney S. and Rossetti, Andrea O. and Chen, C
 date: 2026-05-11
 venue: "Paper"
 year: 2010
-image: /assets/img/papers/depth-cg-teaser.png
+image: assets/img/papers/spindle_jphys.jpeg
 tags: [Spindle, Sleep, Oscillation, Synchrony, MEG, EEG]
 arxiv: ""
 doi: "10.1152/jn.00198.2010"
