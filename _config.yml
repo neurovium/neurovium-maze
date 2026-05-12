@@ -40,6 +40,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+kramdown:
+  math_engine: mathjax
+  math_engine_opts:
+    preview: false
+
 social:
   github: "https://github.com/neurovium"
   scholar: "https://scholar.google.com/citations?user=XXXXXX"
