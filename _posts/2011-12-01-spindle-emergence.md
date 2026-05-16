@@ -1,6 +1,12 @@
-
-# The Hidden Topography of Sleep Spindles: From Asynchronous MEG Generators to Synchronous EEG Events
-
+---
+layout: post
+title: "The Hidden Topography of Sleep Spindles: From Asynchronous MEG Generators to Synchronous EEG Events"
+date: 2011-12-01
+id: spindle-emergence
+paper: /papers/Spindle-MEG-EEG-Async/
+tags: [Spindle, Thalamocortical, Synchrony, MEG, EEG]
+math: true
+---
 Sleep spindles occupy a special place in systems neuroscience. They are among the most recognizable oscillatory signatures of non-REM sleep, appearing as transient bursts of approximately \(10\)--\(15\,\mathrm{Hz}\) activity, typically lasting \(0.5\)--\(2\,\mathrm{s}\), and most prominently associated with Stage 2 sleep. They have been studied as markers of thalamocortical physiology, sleep architecture, memory consolidation, and large-scale neural synchrony. But they also pose a more basic question: when we observe a spindle at the scalp, what exactly is the spatial and dynamical organization of the neural activity that produced it?
 
 For a long time, the dominant picture was that sleep spindles reflect a broadly synchronous thalamocortical event. Classical animal physiology, intracellular studies, computational models, and scalp EEG observations all contributed to this view. In scalp EEG, spindles often appear nearly simultaneous across many electrodes, suggesting a large-scale coordinated oscillation distributed across the cortical mantle. This has made the spindle a natural model for studying how the thalamus and cortex generate coherent rhythms over large spatial scales.

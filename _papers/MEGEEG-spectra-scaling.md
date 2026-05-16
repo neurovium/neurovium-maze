@@ -1,5 +1,7 @@
 ---
 layout: paper
+id: meg-spectra
+wash: "--wash-plum"
 title: "Comparative power spectral analysis of simultaneous electroencephalographic and magnetoencephalographic recordings in humans suggests non-resistive extracellular media"
 subtitle: ""
 authors: "Nima Dehghani, Claude Bédard, Sydney S. Cash, Eric Halgren, and Alain Destexhe"

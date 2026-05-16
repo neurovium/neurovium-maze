@@ -1,6 +1,12 @@
-
-# Electromagnetic scaling in the brain: EEG, MEG, and the resistive-medium assumption
-
+---
+layout: post
+title: "Electromagnetic scaling in the brain: EEG, MEG, and the resistive-medium assumption"
+date: 2010-08-01
+id: meg-spectra
+paper: /papers/MEGEEG-spectra-scaling/
+tags: [Electromagnetism, Scaling, EEG, MEG]
+math: true
+---
 *Companion post to:*  
 **Comparative power spectral analysis of simultaneous electroencephalographic and magnetoencephalographic recordings in humans suggests non-resistive extracellular media**  
 Nima Dehghani, Claude Bédard, Sydney S. Cash, Eric Halgren, and Alain Destexhe  
@@ -361,4 +367,3 @@ This paper tested one consequence of the resistive assumption: the predicted equ
 The interpretation is that the effective extracellular/head medium is non-resistive. Its impedance is frequency dependent, potentially reflecting capacitive and diffusive processes such as Warburg-like behavior. This means that the measured spectrum of brain activity is shaped not only by neural dynamics but also by the physical medium through which those dynamics are observed.
 
 The result is not merely a technical point about EEG and MEG. It is a reminder that neural signals are physical signals. Their interpretation requires not only statistics and neurobiology, but also the physics of fields, media, and measurement.
-

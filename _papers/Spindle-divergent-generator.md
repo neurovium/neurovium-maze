@@ -1,5 +1,7 @@
 ---
 layout: paper
+id: spindle-divergent
+wash: "--wash-teal"
 title: "Divergent Cortical Generators of Sleep Spindles"
 subtitle: "Distributed Source Modeling"
 authors: "Nima Dehghani"

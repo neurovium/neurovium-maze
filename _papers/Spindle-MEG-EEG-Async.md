@@ -1,5 +1,7 @@
 ---
 layout: paper
+id: spindle-emergence
+wash: "--wash-oxblood"
 title: "Emergence of synchronous EEG spindles from asynchronous MEG spindles"
 subtitle: ""
 authors: "Nima Dehghani"

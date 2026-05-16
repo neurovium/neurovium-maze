@@ -1,5 +1,7 @@
 ---
 layout: paper
+id: k-complex
+wash: "--wash-plum"
 title: "The Human K-Complex as an Isolated Cortical \"Down-State\""
 subtitle: ""
 authors: "Nima Dehghani"

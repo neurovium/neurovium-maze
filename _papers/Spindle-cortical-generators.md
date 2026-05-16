@@ -1,5 +1,7 @@
 ---
 layout: paper
+id: spindle-async
+wash: "--wash-slate"
 title: "Magnetoencephalography Demonstrates Multiple Asynchronous Generators During Human Sleep Spindles"
 subtitle: ""
 authors: "Dehghani, Nima and Cash, Sydney S. and Rossetti, Andrea O. and Chen, Chih Chuan and Halgren, Eric"

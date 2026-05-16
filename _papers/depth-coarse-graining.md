@@ -1,5 +1,7 @@
 ---
 layout: paper
+id: depth-coarse-graining
+wash: "--wash-slate"
 title: "Depth as Successive Coarse-Graining in Plain MLPs"
 subtitle: "An Information-Theoretic Treatment"
 authors: "Nima Dehghani"

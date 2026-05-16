@@ -1,5 +1,7 @@
 ---
 layout: paper
+id: spindle-topo
+wash: "--wash-dust"
 title: "Topographical frequency dynamics within EEG and MEG sleep spindles"
 subtitle: ""
 authors: "Nima Dehghani"

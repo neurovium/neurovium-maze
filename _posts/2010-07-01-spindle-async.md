@@ -1,6 +1,12 @@
-
-# Re-evaluating Thalamocortical Synchrony: Multiple Asynchronous Generators of Human Sleep Spindles
-
+---
+layout: post
+title: "Re-evaluating Thalamocortical Synchrony: Multiple Asynchronous Generators of Human Sleep Spindles"
+date: 2010-07-01
+id: spindle-async
+paper: /papers/Spindle-cortical-generators/
+tags: [Spindle, Sleep, MEG, EEG, Synchrony]
+math: true
+---
 Sleep spindles have long occupied a privileged position in systems neuroscience. They are not merely one oscillation among many; they have served as a canonical example of thalamocortical synchrony. Since their early description in the human EEG, and especially through the classical animal literature, spindles have been treated as a prototype of how the thalamus and cortex can enter a coordinated oscillatory state. They occur most prominently during stage 2 non-rapid eye movement sleep, last on the order of $0.5$--$2$ seconds, and occupy a frequency range of roughly $10$--$16$ Hz. Mechanistically, they arise from interactions among inhibitory neurons of the thalamic reticular nucleus, thalamocortical relay neurons, and cortical feedback loops.
 
 The classical picture is one of large-scale synchronization. In cats, spindles were shown to occur coherently across thalamic and cortical sites, and this synchrony was interpreted as a fundamental property of the thalamocortical system. In humans, the corresponding assumption was supported mainly by scalp EEG: during a spindle, EEG channels distributed across the scalp often display highly similar waveforms, with peaks and troughs occurring at nearly the same times. This observation made it natural to infer that human spindles also reflect a widespread and coherent cortical generator.
