@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a personal academic website for **Nima Dehghani**, a neuroscience researcher at MIT leading the N3HUB research group (NeuroPhysics, NeuroComputation, NeuroDynamics). The site is hosted on GitHub Pages at `neurovium.github.io`.
+This is a personal academic website for **Nima Dehghani**, physics, computational neuroscience, AI researcher at MIT leading the N4 (NeuroPhysics, NeuroComputation, NeuroDynamics, NeuroAI). The site is hosted on GitHub Pages at `neurovium.github.io`. (mirror on neurovium.ai)
 
 The site serves two purposes:
 1. A professional academic presence (bio, publications, talks)
@@ -11,10 +11,9 @@ The site serves two purposes:
 ## Technology
 
 - **Jekyll** with GitHub Pages (GitHub builds automatically on push)
-- No custom plugins (GitHub Pages only supports a limited set)
 - All interactivity (tag filtering, animations) via vanilla JS
-- Google Fonts for typography
-- No build tools, no npm, no bundlers — keep it simple
+- Use beautiful Fonts for typography
+
 
 ## Design Direction
 
@@ -64,8 +63,8 @@ Cards are the primary UI element (Krakauer-style):
 - **Mobile**: Full top bar, hamburger menu, single-column card layout
 
 ### Animations & Motion
-- Subtle, not flashy. This is science, not a startup landing page.
 - Cards: fade-in with slight upward translate on scroll (use IntersectionObserver)
+- cards can be shuffled (with each refresh a new set will be shown)
 - Tag filter: smooth opacity transition when filtering cards
 - Page transitions: none needed (standard navigation is fine)
 - Hover states: smooth transitions (0.3s ease)
@@ -113,8 +112,8 @@ neurovium.github.io/
 
 **Hero section:**
 - Large name: "Nima Dehghani"
-- Tagline: "NeuroPhysics · NeuroComputation · NeuroDynamics"
-- One-line affiliation: "MIT · N3HUB Research Group"
+- Tagline: "NeuroPhysics · NeuroComputation · NeuroDynamics, NeuroAI" (think about doing something that NeuroAI is encompassing)
+- One-line affiliation: "MIT · N4 Research Group" (or N4AI)
 - Row of social icons: GitHub, Google Scholar, LinkedIn, Twitter/X, Bluesky, Email
 - Optional: very subtle animated background element (grid, particles, or similar)
 - Link to N3HUB: https://sites.mit.edu/n3hub/
@@ -126,7 +125,7 @@ neurovium.github.io/
 ### About (`about.md`)
 
 - Profile photo (placeholder for now, use a gray square with initials)
-- Bio paragraphs (placeholder text referencing the N3HUB research themes: NeuroPhysics, NeuroComputation, NeuroDynamics)
+- Bio paragraphs (placeholder text referencing the N4 research themes: NeuroPhysics, NeuroComputation, NeuroDynamics, NeuroAI)
 - Affiliations with links
 - Contact info
 - CV download link (placeholder)
@@ -166,7 +165,7 @@ This is the page linked from "Code Availability" in publications.
    - arXiv (with icon)
    - DOI / Published version
    - PDF
-   - Blog post (if any)
+   - Blog post (if any): there should be a link to a counterpart under posts (sometimes there may be multiple posts for a single paper)
    - Slides (if any)
    - BibTeX (expandable/copyable)
 5. **Code & Data section**:
@@ -177,6 +176,7 @@ This is the page linked from "Code Availability" in publications.
 6. **Key figures** (optional): 2-3 figures from the paper with captions
 7. **Tags**: clickable, link back to papers page pre-filtered
 8. **Related publications**: 2-3 cards at the bottom
+
 
 **Front matter for a paper** (example):
 ```yaml
@@ -204,6 +204,7 @@ bibtex: |
     year={2025}
   }
 description: "A mathematical framework showing that deep neural networks implement successive coarse-graining, where each layer preserves task-relevant information while discarding irrelevant nuisance information — analogous to renormalization group flow in physics."
+blog: "link to to my blog post about this paper" 
 ---
 
 Full markdown content of the paper page goes here.
@@ -223,6 +224,9 @@ Simple, no sub-pages. A clean table or styled list:
 - Index page shows cards (smaller than papers — maybe text-focused cards with date and title, no large image needed)
 - Each post gets its own page using `post.html` layout
 - Can be empty for now with a "Coming soon" message
+- Full markdown content of the paper page goes here.
+- You can use images, math (MathJax), code blocks, etc.
+- inherit some items from paper card that they can be easily linked
 
 ## Sidebar (`_includes/sidebar.html`)
 
@@ -309,3 +313,134 @@ python run_experiments.py --config configs/default.yaml
 - **Responsive**: Everything must work on mobile. The sidebar is the trickiest part — it must collapse cleanly.
 - **Performance**: Keep it lean. One CSS file, one JS file, Google Fonts, MathJax (conditional). No jQuery, no Bootstrap, no framework bloat.
 - **Accessibility**: Proper heading hierarchy, alt text on images, keyboard-navigable tag filters, sufficient color contrast (check accent on dark bg).
+
+
+
+
+# SIGNIFICANT DESIGN UPDATE:
+## update the theme/color/typography based on the model design that i will give you using calude design.
+-------
+i had some provisional design (in the code from github) but that needs to be updated with the following instructions and design themes.
+
+I want the website to have two styles (intermixed): 
+1) maze
+2) Borges
+
+The Maze is the physical infrastructure of your concrete output (the papers), while the Garden is the fluid, infinite realm of the underlying ideas (the concepts).
+
+By layering them together, you create a beautiful mapping of how science actually works. Papers are discrete, static markers in time (rooms), but the concepts inside them are continuous, branching, and entangled (forking paths).
+
+Here is how you can blend them into a single, cohesive ecosystem, along with a blueprint for how a visitor experiences it.
+
+Blending these two ideas isn't just possible—it’s conceptually perfect. The distinction you just made is incredibly sharp: **The Maze is the physical infrastructure of your concrete output (the papers), while the Garden is the fluid, infinite realm of the underlying ideas (the concepts).**
+
+By layering them together, you create a beautiful mapping of how science actually works. Papers are discrete, static markers in time (rooms), but the concepts inside them are continuous, branching, and entangled (forking paths).
+
+Here is how you can blend them into a single, cohesive ecosystem, along with a blueprint for how a visitor experiences it.
+
+---
+
+## 1. The Integrated Architecture: "The Labyrinth of Forking Concepts"
+
+Instead of making the user choose a mode at the front door, **the Garden should live *inside* the Maze.** The papers form the structural corridors, and the concepts act as the wormholes that bend the walls of the maze.
+
+### Level 1: The Macro-Maze (The Spatial Paper Corridor)
+
+When a visitor enters, they are in the **Maze**. They see a clean, structural interface—perhaps a minimalist 2-dimensional grid or a sleek, linear reading hallway.
+
+* **The Structure:** They are reading *Paper A*. To the right is a door to *Paper B* (its chronological or methodology-based successor).
+* **The Feel:** This feels solid, academic, and geographical. They know exactly where they are.
+
+### Level 2: The Micro-Garden (The Quantum Conceptual Fork)
+
+While reading *Paper A* inside its "room," certain keywords or phrases are highlighted like glowing text. These are the **Concept Forks**.
+
+* **The Transition:** When a user clicks a concept—say, *Excitation/Inhibition (E/I) Balance*—they don't jump to a new page. Instead, the Borgesian Garden activates. The text cleaves open, and a parallel column slides out to show a blog post or an abstract of a seemingly unrelated *Paper G* that shares that exact same conceptual DNA.
+* **The Twist:** By following the conceptual thread down the Garden fork, the user has just accidentally "warped" to a completely different sector of the physical Maze. The walls shift, and they are now standing in the corridor of *Paper G*.
+
+You have successfully used the Garden to tunnel through the Maze.
+
+---
+
+## 2. The User Journey: A Unified Landing Page
+
+Rather than a stark "Choose Option A or Option B" splash screen, give them an elegant entry point that introduces both dimensions fluidly.
+
+```
+                       [ THE LABYRINTH ]
+         
+         "Time forks perpetually toward innumerable futures."
+                                - J.L. Borges
+         
+         _______________________   _______________________
+        |                       | |                       |
+        |    ENTER THE MAZE     | |   ENTER THE GARDEN    |
+        |  (The Linear Archive) | | (The Entangled Matrix)|
+        |                       | |                       |
+        |  Browse chronologically| | Wander semantically   |
+        |  via papers & projects| | via raw concepts & tags|
+        |_______________________| |_______________________|
+
+```
+
+If they choose **The Maze**, they start at a traditional root node (like your latest major publication) and discover concepts organically as they read.
+
+If they choose **The Garden**, they are dropped into an interactive, floating cloud of raw conceptual keywords. Clicking a word highlights the cluster of papers that reference it, pulling the maze infrastructure up around them dynamically. Both paths lead to the same destination, just through different doors.
+
+---
+
+## 3. The Implementation Blueprint for Claude
+
+To combine a rigid grid navigation (the maze) with a fluid, column-splitting layout (the garden), Claude needs to think about the UI as a **multi-panel sliding viewport**.
+
+### The Hybrid State Model
+
+Tell Claude that the app needs to track two pieces of state simultaneously:
+
+1. `currentPaperId`: Dictates the main, heavy scholarly content in view (The Maze position).
+2. `activeConceptForks[]`: An array of open parallel text panels triggered by clicking conceptual keywords (The Garden paths).
+
+### Prototyping Prompt for Claude Code / Design
+
+You can feed this prompt directly to your tools to get a working framework that mixes both worlds:
+
+> "Build a Next.js component using Tailwind CSS and Framer Motion called `LabyrinthContainer`. It needs to handle a two-layered navigation system:
+> 1. THE MAZE LAYER: The background layer consists of full-width academic paper views. Pressing the Left/Right arrow keys smoothly slides the viewport horizontally to the previous or next paper in a chronological sequence.
+> 2. THE GARDEN LAYER: Within the body text of any paper, certain keywords are styled as inline buttons. When clicked, the main paper container smoothly shrinks to 50% width, and a parallel panel slides out on the right (The Garden Fork) displaying a conceptual blog post or related abstract.
+> 3. THE WARP MECHANISM: At the bottom of the Garden panel, include a button labeled 'Follow this path into the Maze'. Clicking it closes the fork, updates the main viewport state, and smoothly transitions the background Maze layer to the entirely new paper that was being discussed in the concept panel.
+> 
+> 
+> Ensure the design is intensely minimalist—monochrome tones, dark mode, elegant serif typography for the text, and razor-thin borders separating the panels."
+
+This approach gives you the best of both worlds. The casual or deeply curious visitor can wander the infinite Borgesian garden of your ideas, while a peer review scientist looking for a specific dataset or proof can use the arrow keys to sprint cleanly through the corridors of your published papers.
+===================== MAZE style===============
+You are essentially turning a traditional, static scientific portfolio into an epistemic maze or a knowledge graph that users can physically navigate. Instead of just clicking a "Back to Publications" button (they can still do that) , visitors follow semantic threads (the "corridors") where one paper naturally leads to the next paper based on shared concepts, methods, or data.
+
+Academic tools like Connected Papers or ResearchRabbit visually map papers as nodes in a network. You want a first-person or structured UI version of this.
+-----
+The Semantic Thread (The Continuous Corridor)
+Instead of switching rooms entirely, clicking "Continue Down the Corridor" appends the next highly similar paper directly below or to the right, infinitely scrolling or sliding into view.
+
+The Logic: A recommendation engine uses tags or simple NLP embedded in your markdown files to calculate the closest piece of content.
+
+The UI: A sleek, horizontal or vertical layout where the background shifts gradients or text colors as you transition from one domain of your research to another, giving a spatial sense of "traveling."
+------
+The Content Structure (Markdown + Frontmatter)
+Every paper, abstract, and blog post should be a simple Markdown file. Claude can easily parse this. The trick is defining the "doors" in the metadata at the top of each file. This can be found in the paper's "card" under papers, as well as the materials in the "blog" (under posts) about that paper 
+------
+The Architecture Engine
+use a modern, fast framework like Next.js (App Router) or Astro, styled with Tailwind CSS.
+
+For the maze logic, you can ask Claude to write a simple script that automatically builds the connections if you don't want to hardcode them:
+
+It reads all Markdown files.
+
+It compares tags or runs a simple local keyword matching algorithm.
+
+It dynamically generates the "Next Corridor" links for each page so I never have to manually update the maze when I publish a new paper and add it.
+---------------
+
+
+The Borgesian Navigation Mechanics:
+Inspired by Borges' The Garden of Forking Paths, every decision creates a new branching universe. When a visitor enters to read a paper, they don't just choose a link—they choose a dimension.
+
